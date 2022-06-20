@@ -10,7 +10,9 @@
 <body>
     <h1 id="title">Golf Coaching Survey Form</h1>
     <p id="description">Thank you for helping us help you play better golf</p>
-    <form action="" id="survey-form">
+
+    <form id="survey-form">
+
 <label id="name-label">name</label> 
 <input type="text" id="name" required placeholder="Enter your name here">
 
@@ -20,14 +22,34 @@
 <label id="number-label">Age</label> 
 <input type="number" id="number" required max="100" min="6" placeholder="Enter your age here">
 
-<Label>who is your coach ?
-<select name="" id="dropdown">
-<option value="">Select your coach</option>
-<option value="">John Write</option>
-<option value="">Cameron Adams</option>
-<option value="">Maxcine Moses</option>
+<label>who is your coach ? </label>
+<select name="options" id="dropdown">
+<option value="1">Select your coach</option>
+<option value="2">John Write</option>
+<option value="3">Cameron Adams</option>
+<option value="4">Maxcine Moses</option>
 </select>
-</Label>
+
+
+<label for="">Are you a member at Rondebocsh Golf Club</label>
+<label for="">Yes </label><input type="radio" name="club" value="yes">
+<label for="">NO </label><input type="radio" name="club" value="no">
+
+<label for="">What part of your golfing game do you normally attend coaching for?</label>
+<label for="">Driver/Woods </label><input value="woods" type="checkbox">
+<label for="">Iron play </label><input value="irons" type="checkbox">
+<label for="">Wedge Play </label><input value="wedge" type="checkbox">
+<label for="">Pitch shots </label><input value="pitch" type="checkbox">
+<label for="">Chipping </label><input value="chipping" type="checkbox">
+<label for="">Bunker play </label><input value="bunker" type="checkbox">
+<label for="">Putting </label><input value="putting" type="checkbox">
+<label for="">Tournament preparation </label><input value="preparation" type="checkbox">
+<label for="">Course management skills </label><input value="management" type="checkbox">
+
+<label for="">Any comments or suggestions? </label> 
+    <textarea name="comment" id="comment" cols="30" rows="10" placeholder="enter text here"></textarea>
+
+<button id="submit" type="submit">Submit Your Response</button>
     </form>
 </body>
-</html>
+</html> 
