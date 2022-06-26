@@ -5,17 +5,22 @@ body {
     background-color: rgb(40, 119, 40);
     color: #f5f6f7;
     font-family: Times New Roman;
-    font-size: 18px;
+    font-size: 20px;
     box-sizing: border-box;
 }
 
-#name-label, #email-label, #number-label{
-    width: 90%;
+#name-label{
+    padding-top: 10px;
+}
+
+#name, #email, #number{
+    width: 89%;
+    height: 25px;
 }
 
 label{
     display: block;
-    margin: 0.5rem 0;
+    margin: 1rem 0;
     
 }
 
@@ -49,6 +54,61 @@ form{
     height: 3rem;
     border-radius: 5px;
     border: transparent;
+    background-color: lightslategrey;
+    font-size: 18px;
 }
 
+#yes, .yes{
+    display: inline-block;
+    vertical-align: middle;
+}
 
+#no, .no{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+input[value="woods"], .a{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+input[value="irons"], .b{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+input[value="wedge"], .c{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+input[value="pitch"], .d{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+input[value="chipping"], .e{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+input[value="bunker"], .f{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+input[value="putting"], .g{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+input[value="preparation"], .h{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+input[value="management"], .i{
+    display: inline-block;
+    vertical-align: middle;
+}
